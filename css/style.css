@@ -2,14 +2,21 @@
 * {
   box-sizing: border-box;
 }
+/* html{
+  height: 100%;
+} */
 
 body {
+  /* display: flex;
+  flex-direction: column; */
+  /* height: 100%; */
   font-family: 'Rubik', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   margin: 0;
   padding: 0;
+  background-color: #fff;
   color: #fff;
 }
 

@@ -44,7 +44,6 @@ header {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -76,23 +75,6 @@ header {
   margin-right: 25px;
 }
 
-.rubl {
-  color: #2959CE;
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  margin-right: 5px;
-}
-
-.value {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #555;
-}
-
 .header-button {
   display: inline-block;
   padding: 13px 20px;
@@ -103,6 +85,28 @@ header {
   color: #fff;
   text-decoration: none;
   line-height: 19px;
+}
+
+.current-rate {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.current-rate-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555;
+}
+.current-rate-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.current-rate-bolt {
+  margin-right: 5px;
+  color: #2959CE;
 }
 
 .lang-toggle {

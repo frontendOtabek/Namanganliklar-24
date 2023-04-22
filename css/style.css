@@ -89,9 +89,9 @@ header {
 
 .current-rate {
   display: flex;
-  margin-right: auto;
   padding: 0;
   margin: 0;
+  margin-right: auto;
   list-style-type: none;
 }
 

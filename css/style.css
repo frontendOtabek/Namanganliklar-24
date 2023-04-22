@@ -69,6 +69,13 @@ header {
   border-radius: 7px;
   margin-right: 35px;
   color: #7296EE;
+  transition: opacity 0.4s ease;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
 }
 
 .header-left-img {
@@ -85,8 +92,14 @@ header {
   color: #fff;
   text-decoration: none;
   line-height: 19px;
+  transition: opacity 0.4s ease;
 }
-
+.header-button:hover {
+  opacity: 0.8;
+}
+.header-button:active {
+  opacity: 0.6;
+}
 .current-rate {
   display: flex;
   padding: 0;
@@ -419,6 +432,7 @@ footer {
 }
 
 .footer-bottom-heading {
+  width: 161px;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;

@@ -197,8 +197,15 @@ header {
   text-decoration: none;
   text-align: center;
   color: #7f7f7f;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
-
+.promo-links:hover {
+  color: #7296EC;
+}
+.promo-links:active {
+  opacity: 0.8;
+}
 .promo-line {
   margin-top: 0;
   margin-bottom: 40px;

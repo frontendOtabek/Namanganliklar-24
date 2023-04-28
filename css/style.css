@@ -213,64 +213,7 @@ header {
 }
 
 /* CARD STYLE */
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.card {
-  padding: 20px 18px 15px 17px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 393px;
-  background-color: #f6f6f6;
-  border-radius: 15px;
-}
-
-.card:nth-child(1),
-.card:nth-child(2),
-.card:nth-child(3) {
-  margin-bottom: 10px;
-}
-
-.card-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  width: 358px;
-  color: #000;
-}
-
-.card-text {
-  width: 346px;
-  font-weight: 400;
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #4a4b4c;
-}
-
-.card-bottom-wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-  width: 170px;
-}
-
-.card-span {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #5e5f61;
-}
-
-.card-icon {
-  margin-right: 10px;
-}
 
 /* advertising */
 .advertising {
@@ -398,7 +341,7 @@ header {
 }
 
 /* FOOTER STYLE */
-footer {
+.footer {
   padding: 40px 0;
   background-color: #7297ef;
 }

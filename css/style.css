@@ -294,10 +294,41 @@ header {
 /* advertising */
 .advertising {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 60px 0;
+  justify-content: space-between;
+  width: 1050px;
+  height: 100px;
+  background-color: #f78d3b5c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  padding: 24px 71px 24px 29px;
 }
+
+.advertising-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000;
+}
+
+.advertising-button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #f78b3b;
+  border-radius: 10px;
+}
+
+
 
 /* SITE NEWS STYLE */
 .news-container {

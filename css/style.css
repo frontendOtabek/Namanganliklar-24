@@ -462,17 +462,18 @@ header {
   flex-direction: column;
 }
 
-.article-cadr-horizontal {
+.article-card-horizontal {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 10px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 17px;
   background-color: #f6f6f6;
   border-radius: 15px;
 }
-
-.article-cadr-horizontal:not(:last-child) {
-  margin-bottom: 10px;
+.article-card-horizontal:last-child {
+  margin-bottom: 17px;
 }
 
 .article-card-horizontal-img {

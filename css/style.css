@@ -449,7 +449,9 @@ header {
 /* SITE NEWS STYLES */
 .global-news {
   width: 797px;
+  margin-right: 10px;
 }
+
 .global-news-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -532,6 +534,91 @@ header {
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+}
+
+.article-card-horizontal-button {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background: #eaeaea;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000;
+  border-radius: 10px;
+  display: block;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+/* LAYOUT */
+.layout {
+  display: flex;
+}
+
+/* SITEBAR STYLES  */
+.sitebar-news {
+  margin-top: 42px;
+  width: 393px;
+  border-radius: 15px;
+  padding: 20px;
+  background: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.sitebar-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+.sitebar-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitebar-item {
+  padding: 20px 0;
+}
+.sitebar-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.sitebar-text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.sitebar-text:hover {
+  color: #7296EC;
+}
+
+.sitebar-text:active {
+  opacity: 0.6;
+}
+
+.sitebar-source-time {
+  font-size: 13px;
+  line-height: 15px;
+  color: #5e5f61;
+}
+
+.sitebar-source {}
+
+.sitebar-img {
+  width: 393px;
+  height: 338px;
+
 }
 
 

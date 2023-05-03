@@ -516,9 +516,14 @@ header {
   object-fit: cover;
 }
 
-.global-news-source-time {}
+.global-news-source-time {
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
 
-.global-news-source {}
+
+
 
 .global-news-button {
   display: block;

@@ -410,6 +410,20 @@ header {
   color: #5e5f61;
 }
 
+.global-news-button {
+  display: block;
+  width: 100%;
+  padding: 17px 0;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  color: #000;
+  border: 0;
+}
+
 /* SITEBAR-STYLES */
 .sitebar {
   width: 393px;
@@ -478,6 +492,7 @@ header {
   margin-top: 0;
   margin-bottom: 20px;
   background: #cecece;
+  border: 0;
 }
 
 .footer-heading {

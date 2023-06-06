@@ -567,3 +567,7 @@ header {
 .footer-bottom-social-links:not(:last-child) {
   margin-right: 28.5px;
 }
+
+.footer-bottom-icon-wrapper-link {
+  display: flex;
+}

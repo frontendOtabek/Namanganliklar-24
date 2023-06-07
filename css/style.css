@@ -458,14 +458,23 @@ header {
 }
 
 .sitebar-title {
+  display: block;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 8px;
   font-size: 18px;
   line-height: 24px;
   color: #000;
+  text-decoration: none;
 }
 
+.sitebar-title:hover {
+  color: #7296EC;
+}
+
+.sitebar-title:active {
+  opacity: 0.8;
+}
 .sitebar-footer-source-time {
   font-size: 13px;
   line-height: 15px;
@@ -575,6 +584,10 @@ header {
 
 /* NEWS-LIST-HTML-STYLE  */
 
+.news-list-layout {
+  display: flex;
+}
+
 .site-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -589,6 +602,7 @@ header {
 .news-list-wrapper {
   width: 100%;
   max-width: 797px;
+  margin-right: 10px;
 }
 
 .news-list {
@@ -662,4 +676,10 @@ header {
   font-size: 16px;
   line-height: 19px;
   color: #000;
+}
+
+.news-list-sitebar-img {
+  width: 393px;
+  height: 553px;
+  object-fit: cover;
 }

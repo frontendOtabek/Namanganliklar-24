@@ -101,6 +101,7 @@ header {
   text-decoration: none;
   line-height: 19px;
   transition: opacity 0.4s ease;
+  border: 0;
 }
 
 .header-button:hover {
@@ -179,7 +180,6 @@ header {
 /* PROMO STYLE */
 .promo-container {
   padding-top: 30px;
-  padding-bottom: 50px;
 }
 
 .promonav {
@@ -212,10 +212,24 @@ header {
 
 .promo-line {
   margin-top: 0;
-  margin-bottom: 40px;
-  border: 1px solid #D1D1D1;
+  margin-bottom: 50px;
+  border: 1px solid #d1d1d1;
 }
 
+.promo-line:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.promo-advertising-link {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.promo-advertising-img {
+  width: 1200px;
+  height: 128px;
+  object-fit: contain;
+}
 
 
 /* CARD STYLE */
@@ -475,6 +489,7 @@ header {
 .sitebar-title:active {
   opacity: 0.8;
 }
+
 .sitebar-footer-source-time {
   font-size: 13px;
   line-height: 15px;
@@ -682,4 +697,65 @@ header {
   width: 393px;
   height: 553px;
   object-fit: cover;
+}
+
+/* CONTACT PAGE  */
+.contact-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+/* FORM  */
+.forms-layout {}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 696px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-field-wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.input-wrapper .form-field-wrapper {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+
+.form-textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+
+.form-submit {
+  align-self: flex-end;
 }

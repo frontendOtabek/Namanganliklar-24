@@ -1,23 +1,33 @@
 /* GLOBAL STYLE */
-* {
-  box-sizing: border-box;
-}
-
-*:focus {
-  outline: 2px dashed #2959CE;
-  outline-offset: 3px;
+:root {
+  --accent-color: #7296ec;
+  --page-family: 'Rubik', 'Arial', sans-serif;
 }
 
 html {
+  box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline-offset: 5px;
+  outline-width: 3px;
+  outline-style: dashed;
+  outline-color: var(--accent-color);
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: 'Rubik', 'Arial', sans-serif;
+  font-family: var(--page-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -74,7 +84,7 @@ header {
   background-color: #fff;
   border-radius: 7px;
   margin-right: 35px;
-  color: #7296EE;
+  color: #7296ee;
   transition: opacity 0.4s ease;
 }
 
@@ -206,7 +216,7 @@ header {
 }
 
 .promo-links:hover {
-  color: #7296EC;
+  color: var(--accent-color);
 }
 
 .promo-links:active {
@@ -490,7 +500,7 @@ header {
 }
 
 .sitebar-title:hover {
-  color: #7296EC;
+  color: var(--accent-color);
 }
 
 .sitebar-title:active {
@@ -514,7 +524,7 @@ header {
 /* FOOTER STYLE */
 .footer {
   padding: 40px 0;
-  background-color: #7297ef;
+  background-color: var(--accent-color);
 }
 
 .footer-line {
